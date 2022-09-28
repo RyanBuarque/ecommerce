@@ -1,0 +1,33 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+}
+
+.app {
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: "head head" "nav  main" "nav  foot";
+  grid-template-rows: 50px 1fr 30px;
+  grid-template-columns: 150px 1fr;
+}
+.app #header {
+  grid-area: head;
+  background-color: #8ca0ff;
+}
+.app #nav {
+  grid-area: nav;
+  background-color: #ffa08c;
+}
+.app #main {
+  grid-area: main;
+  background-color: #ffff64;
+}
+.app #footer {
+  grid-area: foot;
+  background-color: #8cffa0;
+}
+
+/*# sourceMappingURL=global.css.map */
